@@ -1,4 +1,149 @@
-<html>
-<p1>Hello world!</p1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BridgeBit LTD</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+				"SF Pro Text", "Segoe UI", sans-serif;
+			background: #F5F5F7;
+			color: #1D1D1F;
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			padding: 24px;
+		}
+
+		main {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.card {
+			width: 100%;
+			max-width: 720px;
+			background: white;
+			border-radius: 24px;
+			padding: 56px;
+			text-align: center;
+			box-shadow:
+				0 10px 40px rgba(0, 0, 0, .08),
+				0 2px 8px rgba(0, 0, 0, .04);
+		}
+
+		h1 {
+			font-size: 2.5rem;
+			margin-bottom: 12px;
+		}
+
+		.subtitle {
+			color: #6E6E73;
+			font-size: 1.1rem;
+			margin-bottom: 48px;
+		}
+
+		h2 {
+			font-size: 1.2rem;
+			margin-bottom: 24px;
+			color: #1D1D1F;
+		}
+
+		.app {
+			display: block;
+			text-decoration: none;
+			color: inherit;
+			padding: 22px 24px;
+			border: 1px solid #E5E5EA;
+			border-radius: 18px;
+			transition: .2s ease;
+		}
+
+		.app:hover {
+			transform: translateY(-2px);
+			border-color: #007AFF;
+			box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+		}
+
+		.app-name {
+			font-size: 1.25rem;
+			font-weight: 600;
+		}
+
+		.app-description {
+			margin-top: 8px;
+			color: #6E6E73;
+			font-size: .95rem;
+		}
+
+		footer {
+			text-align: center;
+			padding: 32px 0 12px;
+			color: #86868B;
+			font-size: .9rem;
+		}
+
+		footer a {
+			color: #007AFF;
+			text-decoration: none;
+			margin: 0 12px;
+		}
+
+		@media (max-width: 700px) {
+			.card {
+				padding: 36px 28px;
+			}
+
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<main>
+
+		<div class="card">
+
+			<h1>BridgeBit LTD</h1>
+
+			<p class="subtitle">
+				Building thoughtful products.
+
+			</p>
+
+			<a class="app" href="/better-stopwatches">
+				<div class="app-name">Better Stopwatches</div>
+				<div class="app-description">
+					A modern stopwatch experience designed for speed, simplicity, and precision.
+				</div>
+			</a>
+
+		</div>
+
+	</main>
+
+	<footer>
+		© 2026 BridgeBit LTD
+		&nbsp;•&nbsp;
+		<a href="/about">About</a>
+		<a href="/privacy">Privacy</a>
+		<a href="/terms">Terms</a>
+	</footer>
+
+</body>
 
 </html>
